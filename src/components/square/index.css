@@ -1,0 +1,50 @@
+.field {
+    font-size: 1.3vw;
+    width: 2.3vw;
+    height: 2.3vw;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid gray;
+    outline: 0;
+}
+
+.empty {
+    color: transparent;
+    background-color: lemonchiffon;
+}
+
+.red {
+    color: red;
+    background-color: lightcoral;
+}
+
+.green {
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+.blue {
+    color: blue;
+    background-color: lightblue;
+}
+
+.orange {
+    color: orangered;
+    background-color: lightsalmon;
+}
+
+.flagged {
+    color: transparent;
+    background-image: url('../../assets/images/002-problem.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: gold;
+}
+
+.exploded {
+    color: transparent;
+    background-image: url('../../assets/images/001-mine.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: salmon;
+}
